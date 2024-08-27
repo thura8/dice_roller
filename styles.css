@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: 500px;
+  background-color: hsla(33, 78%, 91%, 0.95);
+  text-align: center;
+  margin: 20px;
+  padding: 18px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.441);
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+#diceRollNum {
+  width: 150px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  background-color: hsla(271, 93%, 59%, 0.76);
+  color: white;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: 2s ease-in;
+}
+
+button:hover {
+  background-color: hsla(240, 77%, 51%, 0.71);
+}
+
+#diceResult {
+  margin-top: 10px;
+}
+
+#diceImages img {
+  width: 120px;
+  margin: 5px;
+}
